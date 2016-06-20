@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Poe.trade ignore list",
+  "description": "This extension adds a link to hide certain sellers",
+  "version": "0.1",
+
+  "permissions": [
+    "storage"
+  ],
+
+  "content_scripts": [ {
+    "js": [ "vendor/jquery-3.0.0.min.js", "vendor/underscore-min.js", "js/main.js" ],
+    "css": [ "css/main.css" ],
+    "matches": [ "http://*.poe.trade/*"]
+  }],
+
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+
+  "icons": {"48": "images/poeBlock.png", "128": "images/poeBlock_large.png" }
+}

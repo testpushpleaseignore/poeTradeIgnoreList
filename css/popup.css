@@ -1,0 +1,85 @@
+body {
+  width: 400px;
+  color: #a38d6d;
+  background-color: #464545;
+}
+
+strong {
+    color: #bb9e74;
+    font-weight: bold;
+}
+
+a {
+    color: #A38B63;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #A38B63;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+ul.tabs{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+ul.tabs li{
+  background: none;
+  display: inline-block;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+ul.tabs li.active{
+  background: #282828;
+}
+
+.tab-content{
+  display: none;
+  background: #282828;
+  padding: 15px;
+  padding-bottom: 10px;
+}
+
+.tab-content.active{
+  display: block;
+}
+
+.blocked-seller-list,
+.no-items {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.right {
+  float: right;
+}
+
+.mass-add-title{
+  margin-bottom: 0;
+}
+
+.blocked-seller-list span.right a{
+  text-decoration: none;
+}
+
+.blocked-seller-list li {
+  border-bottom: 1px solid #464545;
+  padding-bottom: 2px;  
+}
+
+.sellers-to-block-textarea {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.action-container {
+  width: 100%;
+  text-align: right;
+  padding-top: 10px;
+}

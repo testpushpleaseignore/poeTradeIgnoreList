@@ -1,0 +1,3 @@
+.block-seller-wrapper:before {
+  content: " · ";
+}
