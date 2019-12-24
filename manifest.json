@@ -12,7 +12,7 @@
   "content_scripts": [ {
     "js": [ "vendor/jquery-3.0.0.min.js", "vendor/underscore-min.js", "js/main.js" ],
     "css": [ "css/main.css" ],
-    "matches": [ "http://*.poe.trade/*"]
+    "matches": [ "http://*.poe.trade/*", "https://*.poe.trade/*"]
   }],
 
   "browser_action": {
